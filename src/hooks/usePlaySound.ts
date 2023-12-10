@@ -5,7 +5,7 @@ export function usePlaySound(file: string, volume: number = 1) {
   const sound = useMemo(
     () =>
       new Howl({
-        src: [`/sounds/${file}.mp3`],
+        src: [`./sounds/${file}.mp3`],
         preload: true,
         volume,
       }),
