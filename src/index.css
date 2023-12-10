@@ -1,0 +1,49 @@
+html, body, #root {
+  font-family: Roboto;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+
+  --dark-0: #090a0a;
+  --dark-1: #0e1111;
+  --dark-2: #232b2b;
+  --dark-3: #353839;
+  --dark-4: #3b444b;
+  --dark-5: #414a4c;
+
+  --light-0: #ede7c2;
+
+  background: radial-gradient(var(--dark-2), var(--dark-1));
+}
+
+.react-responsive-modal-modal {
+  background: var(--dark-1);
+  border-radius: 8px;
+  border: 3px solid var(--dark-5);
+  color: var(--light-0);
+}
+
+input[type=text],
+input[type=number] {
+  background-color: var(--dark-4);
+  border: 2px solid var(--dark-0);
+  border-radius: 8px;
+  color: var(--light-0);
+  padding: 6px 12px;
+  font-size: 1.5rem;
+  min-width: 100px;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 6px 12px;
+  border: 2px solid var(--light-0);
+  background-color: var(--dark-1);
+  color: var(--light-0);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--dark-4);
+}
