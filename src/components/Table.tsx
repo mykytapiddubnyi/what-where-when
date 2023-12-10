@@ -27,6 +27,7 @@ const tableCss = css({
     },
   },
   '.spinner-container': {
+    overflow: 'hidden',
     filter: 'drop-shadow(15px 5px 2px rgb(0 0 0 / 0.7))',
     '#spinner': {
       transformOrigin: '50% 50%',
